@@ -1,0 +1,98 @@
+.hud {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.statsRow {
+  display: flex;
+  gap: 16px;
+}
+
+.statsRow .stat {
+  flex: 1;
+}
+
+.label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+}
+
+.value {
+  font-size: 22px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.events {
+  min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.clear {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  color: var(--accent);
+  animation: pop 0.25s ease;
+}
+
+.b2b {
+  font-size: 10px;
+  background: #ffd84c;
+  color: #1a1400;
+  border-radius: 3px;
+  padding: 1px 4px;
+  font-weight: 800;
+}
+
+.gold {
+  color: #ffd700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.7);
+}
+
+.points {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.perfect {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #ffd84c;
+  text-shadow: 0 0 10px rgba(255, 216, 76, 0.6);
+  animation: pop 0.25s ease;
+}
+
+.combo {
+  font-size: 13px;
+  color: #ff8bd0;
+  font-weight: 600;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

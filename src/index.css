@@ -1,0 +1,40 @@
+:root {
+  --bg: #07080f;
+  --panel: #141826;
+  --panel-border: #262c40;
+  --text: #e8ebf5;
+  --text-dim: #8b91a8;
+  --accent: #4cc2ff;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(circle at 50% 0%, #11142a 0%, var(--bg) 70%);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
