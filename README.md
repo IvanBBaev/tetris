@@ -3,7 +3,7 @@
 A modern, **guideline-compliant** Tetris built with **React 18 + TypeScript + Vite** —
 no game engine, the logic is hand-written and unit-tested.
 
-**▶ Play it: https://leasstatt.github.io/tetris/**
+**▶ Play it: https://ivanbbaev.github.io/tetris/**
 
 ![Tetris](docs/screenshot.png)
 
